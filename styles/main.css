@@ -1,0 +1,220 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+}
+body a{
+    text-decoration:none;
+    color: #3571ce;
+}
+/* Header
+==========================*/
+.header {
+    width: 100%;
+    position: relative;
+    padding: 0;
+    background-color: #0858b4;
+    /* margin-bottom: 10px; */
+    z-index: 8000;
+}
+
+.logo {
+    margin-top: 20px !important;
+}
+.h_img {
+    width: 100%;
+    background-color: #003588;
+    padding: 50px 0 50px 0px;
+}
+.h_img1 {
+    background-color: #2278c6;
+    height: 2px;
+    width: 100%;
+}
+.h_img_1 {
+    width: 90%;
+    max-width: 1170px;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: hidden;
+}
+.h_img_2 {
+    float: left;
+    overflow: hidden;
+}
+.h_img_3 {
+    float: left;
+    margin-left: 50px;
+}
+.main_menu{
+    background-color: #9BBB59;
+    margin-bottom: 10px;
+}
+.tables{
+    border-color: white;
+}
+
+
+.footer {
+    background-color: #003588;
+    border-top: 10px solid #ffffff;
+    color: #E9E9E9;
+}
+.container {
+    position: relative;
+    width: 95%;
+    max-width: 1170px;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+    padding-top: 0;
+    padding-right: 0;
+    padding-left: 0;
+}.footer-top {
+     overflow: hidden;
+     padding: 20px 0 10px;
+ }
+.clearfix {
+    zoom: 1;
+}
+.clearfix:before, .clearfix:after {
+    content: '\0020';
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+.container .four.columns.foot {
+    background-color: #003588;
+}
+
+.container .four.columns {
+    width: 31%;
+    background-color: #FFFFFF;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.container .column, .container .columns {
+    float: left;
+    display: inline;
+    margin-right: 1.5%;
+}
+.footer a {
+    color: #FFFFFF;
+    -webkit-transition: color 0.2s ease;
+    transition: color 0.2s ease;
+}
+
+a:visited {
+    text-decoration: none;
+    outline: 0;
+}
+.footer .c1 {
+    float: left;
+    position: relative;
+    left: 50%;
+}
+.footer .c1 ul {
+    position: relative;
+    left: -50%;
+    float: left;
+    padding: 20px;
+}
+ol, ul {
+    list-style: none;
+}
+.footer .c1 ul li {
+    line-height: 37px;
+    font-size: 14px;
+    font-family: Microsoft Yahei;
+}
+.container .four.columns.foot {
+    background-color: #003588;
+}
+.container .four.columns {
+    width: 31%;
+    background-color: #FFFFFF;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.container .column, .container .columns {
+    float: left;
+    display: inline;
+    margin-right: 1.5%;
+}
+.footer h3 {
+    border-bottom: 1px dashed #ffffff;
+    margin-bottom: 25px;
+    padding-bottom: 10px;
+    color: #E5E5E5;
+    text-align: center;
+}
+h3 {
+    font: 18px 'OpenSansSemiboldRegular';
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #313538;
+    font-family: 'OpenSansRegular';
+    font-weight: normal;
+    line-height: 1em;
+    margin: 0 0 10px;
+    padding: 0;
+}
+img {
+    border: medium none;
+}
+.twitter ul {
+    padding: 0;
+    text-align: center;
+    list-style: none;
+}
+.twitter li {
+    line-height: 2em;
+    font-size: 1em;
+    font-family: Microsoft Yahei;
+}
+.footer a {
+    color: #FFFFFF;
+    -webkit-transition: color 0.2s ease;
+    transition: color 0.2s ease;
+}
+.container .four.columns.foot {
+    background-color: #003588;
+}
+.container .four.columns {
+    width: 31%;
+    background-color: #FFFFFF;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.container .column, .container .columns {
+    float: left;
+    display: inline;
+    margin-right: 1.5%;
+}
+.latest-project {
+    float: left;
+    position: relative;
+    left: 50%;
+}
+.latest-project .w3 {
+    float: left;
+    position: relative;
+    left: -50%;
+}
+.weix {
+    float: left;
+    text-align: center;
+    margin-right: 10px;
+    margin-top: 90px;
+}
+.latest-project a, .latest-project img {
+    position: relative;
+    display: block;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.07);
+}
