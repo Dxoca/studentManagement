@@ -68,7 +68,6 @@ switch ($action) {
     <div class="container">
         <div class="footer-top clearfix">
             <div class="four columns foot">
-
             </div>
             <div class="four columns foot">
                 <h3><img src="./images/logofoot.png" alt=""></h3>
