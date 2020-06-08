@@ -1,9 +1,14 @@
 <?php
 /**
+ *
+ * @author Dxoca.cn
+ * @timd 2020年6月8日 15:22:07
+ *
  * 首页 通过switch切换中间的页面
  * 若不登录 则不能对数据进行操作
  * username:wzkc
  * password:666666
+ *
  */
 require_once 'model.php';
 $mysqli = connect();
