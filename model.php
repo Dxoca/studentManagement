@@ -38,3 +38,16 @@ function isLogin()
         return 0;
     }
 }
+/**
+ * 页面底部内容 多次调用所以写成模块
+ */
+function foot()
+{
+    $str = <<<HTML
+        <div  class="foot" >
+            Powered by <a target="blank" href="https://dxoca.cn">Dxoca</a>&nbsp;<br>&nbsp;Github:<a target="blank" href="https://github.com/Dxoca/studentManagement
+">StudentManagement</a></body>
+        </div>
+HTML;
+    echo $str;
+}

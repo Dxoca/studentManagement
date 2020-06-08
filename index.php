@@ -41,7 +41,6 @@ $action = $_GET['action'];//获取 菜单功能分类参数 改变页面内容
 if(!isLogin()){
     $action='Login';
     echo "<script>alert('请先登录！ ')</script>";
-
 }
 switch ($action) {
     case 'addStudent'://添加学生
@@ -51,7 +50,7 @@ switch ($action) {
         include 'simplenessSelect.php';
         break;
     case 'Login'://登录
-        include 'Login.php';
+        include 'login.php';
         break;
     case 'groupCount'://分组计算
         include 'groupCount.php';
@@ -86,6 +85,7 @@ switch ($action) {
                                     <p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#939393;">
                                         鄂公网安备 42011702000058号</p></a>
                             </div>
+                            <?php foot()?>
                         </li>
                     </ul>
                 </div>
@@ -108,6 +108,7 @@ switch ($action) {
     <div class="container">
         <!-- footer-bottom -->
     </div>
+
 </footer>
 
 </body>
